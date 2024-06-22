@@ -1,23 +1,23 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'Noakhali Government College',
-        course: 'Bachelor Degree',
-        startYear: '2020',
-        endYear: 'Present'
+        institution: 'Programming Hero',
+        course: 'Complete Web Development Course with Jhankar Mahbub',
+        startYear: '2023',
+        endYear: '2024'
     },
     {
         id: 2,
-        institution: 'Noakhali Islamia Kamil Madrasah',
-        course: 'Higher Secondary',
-        startYear: '2018',
-        endYear: '2020'
+        institution: 'Bangladesh Agricultural University',
+        course: 'Post Graduate Diploma in Information and Communication Technology',
+        startYear: '2008',
+        endYear: '2009'
     },
     {
         id: 3,
-        institution: 'Baitus Saif Islamia Madrasah',
-        course: 'Secondary School',
+        institution: 'Bangladesh Agricultural University',
+        course: 'Master of Science in Horticulture',
         startYear: '2008',
-        endYear: '2018'
+        endYear: '2010'
     },
 ]

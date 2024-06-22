@@ -4,7 +4,7 @@ import education from '../../assets/lottie/education.json';
 import { ThemeContext } from '../../contexts/theme-context';
 import { educationData } from '../../data/education-data';
 import styles from '../../styles/education.module.css';
-import AnimationLottie from '../animation';
+import AnimationLottie from '../AnimationLottie';
 import EducationCard from './education-card';
 
 
@@ -13,7 +13,7 @@ function Education() {
     const { theme } = useContext(ThemeContext);
     return (
         <div style={{ backgroundColor: theme.secondary }}>
-            <Container className={styles.education} id="resume">
+            <Container className={styles.education} id="education">
                 <div className={styles.educationBody}>
                     <div className={styles.educationImage}>
                         <AnimationLottie animationPath={education} />

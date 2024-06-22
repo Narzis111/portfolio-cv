@@ -52,19 +52,7 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {socialsData.twitter && (
-                            <a
-                                href={socialsData.twitter}
-                                target='_blank'
-                                rel='noreferrer'
-                            >
-                                <FaTwitter
-                                    className={styles.landingSocial}
-                                    style={{ color: theme.primary }}
-                                    aria-label='Twitter'
-                                />
-                            </a>
-                        )}
+                      
                         {socialsData.facebook && (
                             <a
                                 href={socialsData.facebook}
@@ -103,8 +91,8 @@ function Landing() {
                         <h1>{headerData.name}</h1>
                         <Typed
                             strings={[
-                                'Backend Developer',
-                                'Frontend Developer',
+                                'MERN Stack Developer',
+                                'Front-end Developer',
                                 'Fullstack Developer']}
                             typeSpeed={40}
                             backSpeed={50}
